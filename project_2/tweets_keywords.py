@@ -19,10 +19,10 @@ import string
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 
-consumerKey = '4es8FHoW3bgZulmNpT7PJb0F9'
-consumerSecret = 'hJwu7Qsk5WTOpQKthfcw2HFQ7sz4ObUjmXokKzLL5zmhl3Gr5F'
-accessToken = '1441943955159990280-JGh1mvaXSONFr8NbLz6AO2PoqwwpOK'
-accessTokenSecret = '2TbtgnstIbx0XlU9S6AdDK1Qn3HQ2xS7DqTcImemxmf7X'
+consumerKey = 'key'
+consumerSecret = 'sec'
+accessToken = 'at'
+accessTokenSecret = 'ac'
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
 api = tweepy.API(auth)
